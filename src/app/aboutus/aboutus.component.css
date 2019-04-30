@@ -1,0 +1,175 @@
+.c-body{
+    position:relative;
+}
+
+.c-childbody{
+    /* Placeholder */
+    font-family: "Avenir Next" !important;
+}
+
+.c-image-body{
+    position: absolute;
+    top: 69px;
+}
+
+.c-image{
+    background-color: #000000;
+}
+
+.c-captions{
+    font-size: 24px;
+    color: #707070;
+    position: absolute;
+    top: 950px;
+    left: 384px;
+}
+
+.c-title1{
+    position: absolute;
+    font-size: 48px;
+    text-align: center;
+    color:#000000;
+    top: 1033px;
+    left:494.5px;
+}
+
+.c-description1{
+    position: absolute;
+    font-size: 30px;
+    text-align:center;
+    top: 1145px;
+    left: 50px;
+    color:#707070
+}
+
+.c-title2{
+    position: absolute;
+    font-size: 48px;
+    text-align: center;
+    color:#000000;
+    top: 1777px;
+    left:410px;
+}
+
+.c-ellipse1{
+    width: 601.47px;
+    height: 601.47px;
+    border-radius: 50%;
+    background-color: #22B573;
+    opacity: 0.33;
+    position: absolute;
+    top: 1911.54px;
+    left: 38px;
+}
+
+.c-ellipse2{
+    width: 390.61px;
+    height: 390.61px;
+    border-radius: 50%;
+    background-color: #00A99D;
+    opacity: 0.5;
+    position: absolute;
+    top: 2016.97px;
+    left: 143.43px;
+}
+
+.c-ellipse3{
+    width: 155.55px;
+    height: 155.55px;
+    border-radius: 50%;
+    background-color: #29ABE2;
+    opacity: 0.74;
+    position: absolute; 
+    top: 2134.5px;
+    left: 260.96px;
+}
+
+#c-canvas1{
+    position: absolute;
+    top: 1948.19px;
+    left: 378.17px;
+}
+
+#c-canvas2{
+    position: absolute;
+    top: 2151.59px;
+    left: 415.57px;
+}
+
+#c-canvas3{
+    position: absolute;
+    top: 2372.53px;
+    left: 441.52px;
+}
+
+.c-subtitle1{
+    position: absolute;
+    font-size: 30px;
+    color:#000000;
+    top: 1889.07px;
+    left:726.57px;
+}
+
+.c-description2{
+    position: absolute;
+    font-size: 24px;
+    color:#707070;
+    top: 1944.89px;
+    left:726.57px;
+}
+
+.c-subtitle2{
+    position: absolute;
+    font-size: 30px;
+    color:#000000;
+    top: 2116.35px;
+    left:726.57px;
+}
+
+.c-description3{
+    position: absolute;
+    font-size: 24px;
+    color:#707070;
+    top: 2172.11px;
+    left:726.57px;
+}
+
+.c-subtitle3{
+    position: absolute;
+    font-size: 30px;
+    color:#000000;
+    top: 2343.99px;
+    left:726.57px;
+}
+
+.c-description4{
+    position: absolute;
+    font-size: 24px;
+    color:#707070;
+    top: 2399.75px;
+    left:726.57px;
+}
+
+.c-title3{
+    position: absolute;
+    font-size: 48px;
+    text-align: center;
+    color:#000000;
+    top: 2709px;
+    left:491.5px;
+}
+
+.c-image-body2{
+    position: absolute;
+    top: 2821px;
+    left: 263px;
+}
+
+.c-description5{
+    position: absolute;
+    color: #707070;
+    top: 3624px;
+    left: 103px;
+    font-size: 30px;
+    text-align: center;
+}
