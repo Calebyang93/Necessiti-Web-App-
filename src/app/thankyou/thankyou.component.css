@@ -1,0 +1,27 @@
+.c-body{
+    position:relative;
+    width: 1280px;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+.c-childbody{
+    font-family: "Avenir Next" !important;
+}
+
+.c-title{
+    position: absolute;
+    top: 245px;
+    left: 303.02px;
+    color: #00A99D;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.c-description{
+    position: absolute;
+    top: 356px;
+    left: 184px;
+    font-size: 36px;
+    text-align: center;
+}

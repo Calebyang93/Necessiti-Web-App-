@@ -1,5 +1,4 @@
 import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
-import * as AOS from 'aos';
 
 @Component({
   selector: 'app-aboutus',
