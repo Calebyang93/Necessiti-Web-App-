@@ -1,0 +1,53 @@
+.c-body{
+    position:relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.c-childbody{
+    font-family: "Avenir Next" !important;
+}
+
+.c-title{
+    position: absolute;
+    top: 274px;
+    left: 217px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.c-grid-container{
+    display: inline-grid;
+    grid-template-columns: 303.92px 303.92px 303.92px;
+    grid-template-rows: 202.61px 202.61px;
+    width: 911.76px;
+    position: absolute;
+    top: 403px;
+    left: 230.92px;
+}
+
+.c-grid-item-a {
+    grid-column: 1;
+}
+
+.c-grid-item-b {
+    grid-column: 2;
+}
+
+.c-grid-item-c {
+    grid-column: 3;
+}
+
+.c-grid-item-d {
+    grid-column: 1;
+}
+
+.c-grid-item-e {
+    grid-column: 2;
+}
+
+.c-grid-item-f {
+    grid-column: 3;
+}
+

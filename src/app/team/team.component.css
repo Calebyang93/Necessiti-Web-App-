@@ -1,0 +1,105 @@
+.c-body{
+    position:relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.c-childbody{
+    font-family: "Avenir Next" !important;
+}
+
+.c-grid-container{
+    display: inline-grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px 300px;
+    grid-column-gap: 50px;
+    grid-row-gap: 200px;
+    width: 700px;
+    position: absolute;
+    top: 301px;
+    left: 286px;
+}
+
+.c-grid-item-a {
+    grid-column: 1;
+}
+
+.c-grid-item-b {
+    grid-column: 2;
+}
+
+.c-grid-item-c {
+    grid-column: 3;
+}
+
+.c-grid-item-d {
+    grid-column: 1;
+}
+
+.c-grid-item-e {
+    grid-column: 2;
+}
+
+.c-placeholder{
+    background-color: #707070;
+    width:200px;
+    height:200px;
+}
+
+.c-caption{
+    text-align: center;
+    margin-top:25px;
+    font-size: 18px;
+}
+
+.c-title{
+    position: absolute;
+    top: 1218px;
+    left: 492px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.c-flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid red;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 1387px;
+}
+
+.c-advisor-1{
+    position: absolute;
+    top: 1387px;
+    left: 144px;
+    background-color: #707070;
+    width: 200px;
+    height: 200px;
+}
+
+.c-advisor-description-1{
+    position: absolute;
+    top: 1385px;
+    left: 419px;
+    font-size: 25px;
+}
+
+.c-advisor-2{
+    position: absolute;
+    top: 1637px;
+    left: 144px;
+    background-color: #707070;
+    width: 200px;
+    height: 200px;
+}
+
+.c-advisor-description-2{
+    position: absolute;
+    top: 1635px;
+    left: 419px;
+    font-size: 25px;
+}
