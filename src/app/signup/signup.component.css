@@ -1,11 +1,6 @@
 .c-body{
-    position:relative;
-    width: 1280px;
     height: 1144px;
-    margin: 0 auto;
-}
-
-.c-childbody{
+    width: 100%;
     font-family: "Avenir Next" !important;
 }
 
@@ -16,8 +11,15 @@
     top: 69px;
     background-image: url("../../assets/logo3.jpeg");
     background-repeat:no-repeat;
-    background-size:1504px 1000px;
+    background-size:cover;
     background-position: center;
+}
+
+.c-content{
+    position: relative;
+    width: 1280px;
+    margin: auto;
+    height: 1144px;
 }
 
 .c-page-title{

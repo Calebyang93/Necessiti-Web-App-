@@ -4,6 +4,7 @@
 }
 
 .c-title{
+    display: block;
     font-size: 36px;
     text-align: center;
     color: #00A99D;
@@ -12,11 +13,17 @@
 
 .c-socialmedia {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
 }
 
 .c-icon{
     display: block;
     padding: 70px;
+}
+
+@media screen and (max-width:769px) {
+    .c-title{
+        display:none;
+    }
 }
