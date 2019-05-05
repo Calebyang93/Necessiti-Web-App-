@@ -1,0 +1,22 @@
+.c-footer{
+    margin-top: 300px;
+    font-family: "Avenir Next" !important;
+}
+
+.c-title{
+    font-size: 36px;
+    text-align: center;
+    color: #00A99D;
+    font-weight: bold;
+}
+
+.c-socialmedia {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.c-icon{
+    display: block;
+    padding: 70px;
+}

@@ -9,6 +9,26 @@
     font-family: "Avenir Next" !important;
 }
 
+.c-pagename{
+    position: absolute;
+    height: 125px;
+    width: 100%;
+    top: 69px;
+    background-image: url("../../assets/logo3.jpeg");
+    background-repeat:no-repeat;
+    background-size:1504px 1000px;
+    background-position: center;
+}
+
+.c-page-title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Comfortaa;
+    color: #FFFFFF;
+    margin: 40px;
+}
+
 .c-title{
     position: absolute;
     top: 245px;
