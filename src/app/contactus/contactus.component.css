@@ -5,7 +5,17 @@
     font-family: "Avenir Next" !important;
 }
 
-.c-pagename{
+
+.c-page-title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Comfortaa;
+    color: #FFFFFF;
+    margin: 40px;
+}
+
+.c-pageimage{
     position: absolute;
     height: 125px;
     width: 100%;
@@ -17,20 +27,12 @@
 }
 
 .c-content{
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
-.c-page-title{
-    font-size: 48px;
-    font-weight: bold;
-    text-align: left;
-    font-family: Comfortaa;
-    color: #FFFFFF;
-    margin: 40px;
-}
-
 .c-title{
+    display:inline;
     position: absolute;
     color: #00A99D;
     font-size: 48px;
@@ -39,6 +41,7 @@
 }
 
 .c-description1{
+    display:inline;
     position: absolute;
     top: 356px;
     font-size: 30px;
@@ -49,4 +52,25 @@
     top: 826px;
     font-size: 28px;
     font-weight: lighter;
+}
+
+@media screen and (max-width:900px) {
+    .c-body{
+        height: 600px;
+    }
+
+    .c-title{
+        display: none;
+    }
+
+    .c-description1{
+        display: none;
+    }
+
+    .c-description2{
+        position: absolute;
+        max-width: 900px;
+        text-align: center;
+        top: 300px;
+    }
 }

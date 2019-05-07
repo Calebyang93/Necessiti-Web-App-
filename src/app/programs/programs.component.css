@@ -17,7 +17,7 @@
 
 .c-content{
     position: relative;
-    width: 1280px;
+    max-width: 1280px;
     margin: auto;
     height: 1144px;
 }
@@ -32,22 +32,22 @@
 }
 
 .c-title{
-    position: absolute;
+    position: relative;
     top: 274px;
-    left: 217px;
     font-size: 36px;
     text-align: center;
     font-weight: lighter;
 }
 
+.c-grid-body{
+    width: 70%;
+    margin: auto;
+}
+
 .c-grid-container{
     display: inline-grid;
-    grid-template-columns: 303.92px 303.92px 303.92px;
-    grid-template-rows: 202.61px 202.61px;
-    width: 911.76px;
-    position: absolute;
-    top: 403px;
-    left: 230.92px;
+    position: relative;
+    top: 350px;
 }
 
 .c-grid-item-a {

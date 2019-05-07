@@ -4,7 +4,16 @@
     font-family: "Avenir Next" !important;
 }
 
-.c-pagename{
+.c-page-title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Comfortaa;
+    color: #FFFFFF;
+    margin: 40px;
+}
+
+.c-pageimage{
     position: absolute;
     height: 125px;
     width: 100%;
@@ -17,68 +26,60 @@
 
 .c-content{
     position: relative;
-    width: 1280px;
+    max-width: 1280px;
     margin: auto;
-    height: 1144px;
-}
-
-.c-page-title{
-    font-size: 48px;
-    font-weight: bold;
-    text-align: left;
-    font-family: Comfortaa;
-    color: #FFFFFF;
-    margin: 40px;
+    height: 1400px;
 }
 
 .c-title{
-    position: absolute;
+    position: relative;
     font-size: 48px;
     top: 245px;
-    left: 312.02px;
+    text-align: center;
     color: #00A99D;
 }
 
 .c-desciption{
-    position: absolute;
+    position: relative;
     font-size: 36px;
-    top: 361px;
-    left: 111px;
+    top: 300px;
     text-align: center;
 }
 
+.c-form{
+    width: 860px;
+    margin: 0 auto;
+}
+
 .c-input1{
-    position: absolute;
-    top: 600px;
-    left: 209px;
-    width: 862.67px;
+    position: relative;
+    top: 400px;
+    width: 100%;
     height: 85px;
     font-size: 36px;
     color: #707070;
 }
 
 .c-or{
-    position: absolute;
-    top: 764px;
-    left:614px;
+    position: relative;
+    top: 464px;
+    text-align: center;
     font-size: 36px;
 }
 
 .c-input2{
-    position: absolute;
-    top: 892px;
-    left: 209px;
-    width: 862.67px;
+    position: relative;
+    top: 550px;
+    width: 100%;
     height: 85px;
     font-size: 36px;
     color: #707070;
 }
 
 .c-submit{
-    position: absolute;
-    top: 1159px;
-    left: 209px;
-    width: 862.67px;
+    position: relative;
+    top: 700px;
+    width: 100%;
     height: 85px;
     font-size: 36px;
     background-color: #00A99D;

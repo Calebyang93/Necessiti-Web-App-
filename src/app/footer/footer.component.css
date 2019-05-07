@@ -22,8 +22,13 @@
     padding: 70px;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:900px) {
     .c-title{
         display:none;
+    }
+
+    .c-icon{
+        display: block;
+        padding: 10px;
     }
 }

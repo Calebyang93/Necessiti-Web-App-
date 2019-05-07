@@ -4,7 +4,17 @@
     font-family: "Avenir Next" !important;
 }
 
-.c-pagename{
+
+.c-page-title{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Comfortaa;
+    color: #FFFFFF;
+    margin: 40px;
+}
+
+.c-pageimage{
     position: absolute;
     height: 125px;
     width: 100%;
@@ -17,33 +27,24 @@
 
 .c-content{
     position: relative;
-    width: 1280px;
+    max-width: 1280px;
     margin: auto;
     height: 1144px;
 }
 
-.c-page-title{
-    font-size: 48px;
-    font-weight: bold;
-    text-align: left;
-    font-family: Comfortaa;
-    color: #FFFFFF;
-    margin: 40px;
-}
-
 .c-title{
-    position: absolute;
+    position: relative;
     top: 245px;
-    left: 303.02px;
+    text-align: center;
     color: #00A99D;
     font-size: 48px;
     font-weight: bold;
 }
 
 .c-description{
-    position: absolute;
+    position: relative;
     top: 356px;
-    left: 184px;
+    text-align: center;
     font-size: 36px;
     text-align: center;
 }
