@@ -16,8 +16,8 @@
     margin: auto;
     width: 100%;
     background-image: url("../../assets/aboutus.jpeg");
-    background-size: 1280px 856px;
     background-position: center; 
+    background-size:cover;
     height: 856px;
     background-repeat: no-repeat;
     position: absolute;
