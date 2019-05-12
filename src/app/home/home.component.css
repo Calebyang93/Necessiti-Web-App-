@@ -10,7 +10,7 @@
     background-image: url("../../assets/home.jpeg");
     background-position: center; 
     background-size:cover;
-    height: 700px;
+    height: 750px;
     width: 100%;
     top: 69px;
     opacity: 15%;
@@ -19,11 +19,11 @@
 .c-image-description{
     position: relative;
     color: #FFFFFF;
-    font-weight: bold;
+    font-weight: bolder;
     top: 259px;
     font-size: 48px;
     text-align: center;
-    text-shadow: 0px 3px 6px #000000;
+    text-shadow: 0px 3px 5px #000000;
 }
 
 .c-content{
@@ -40,6 +40,8 @@
     font-size: 28px;
     text-align: right;
     padding: 50px;
+    width: 700px;
+    margin-left: 60%;
 }
 
 .c-learn{
@@ -81,18 +83,18 @@
 .c-grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(138.15px, 1fr));
-    grid-column-gap: 200px;
-    grid-row-gap: 50px;
+    grid-column-gap: 180px;
+    grid-row-gap: 70px;
     position: relative;
     margin: auto;
-    width: 70%;
+    width: 85%;
 }
 
 .c-pimage{
     width: 138.15px;
     height: 138.15px;
     border-radius: 50%;
-    background-color: cover;
+    background-size: cover;
     margin: auto;
 }
 
@@ -110,7 +112,7 @@
 
 .c-imagealign{
     width: 138.15px;
-    margin: 20px auto;
+    margin: auto;
 }
 
 .c-section2{
@@ -130,6 +132,7 @@
 }
 
 .c-more{
+    display: block;
     position: relative;
     font-size: 40px;
     text-decoration: underline;
@@ -159,7 +162,7 @@
     font-size: 41px;
     text-align: center;
     height: 100%;
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .c-event-content{
@@ -190,36 +193,42 @@
     position: relative;
     margin-top: 100px;
     width: 100%;
-    height: 738px;
+    height: 780px;
     background-image: url("../../assets/home2.png");
     background-size: cover;
+    opacity: 12%;
 }
 
 .c-contact-description{
     position: relative;
-    top: 5px;
+    top: 20px;
     text-align: center;
     font-size: 48px;
     color: #FFFFFF;
+    width: 95%;
+    margin: auto;
+    font-weight: bold;
 }
 
 .c-form{
-    width: 860px;
+    width: 90%;
     margin: 0 auto;
 }
 
 .c-input1{
     position: relative;
-    top: 25px;
+    top: 45px;
     width: 100%;
     height: 85px;
     font-size: 36px;
     color: #707070;
+    border-radius: 5px;
+    padding: 12px;
 }
 
 .c-or{
     position: relative;
-    top: 80px;
+    top: 90px;
     text-align: center;
     font-size: 36px;
     color: white;
@@ -228,24 +237,78 @@
 
 .c-input2{
     position: relative;
-    top: 135px;
+    top: 145px;
     width: 100%;
     height: 85px;
     font-size: 36px;
     color: #707070;
+    border-radius: 5px;
+    padding: 12px;
 }
 
 .c-submit{
     position: relative;
-    top: 220px;
+    top: 230px;
     width: 100%;
     height: 85px;
     font-size: 36px;
     background-color: #00A99D;
     color: #FFFFFF;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+@media screen and (max-width:1285px) {
+    .c-event-item{
+        height: 235px;
+        grid-template-columns: 235px 530px;
+    }
+
+    .c-event-date{
+        font-size: 30px;
+        padding-top: 70px;
+    }
+
+    .c-event-content{
+        padding: 30px 15px;
+    }
+
+    .c-event-content-title{
+        font-size: 25px;
+     }
+     
+     .c-event-content-timing{
+         font-size: 20px;
+     }
+     
+     .c-event-content-description{
+         font-size: 20px;
+     }
 }
 
 @media screen and (max-width:900px) {
+    .c-event-item{
+        height: 208px;
+        grid-template-columns: 208px 470px;
+    }
+
+    .c-event-date{
+        font-size: 23px;
+        padding-top: 65px;
+    }
+
+    .c-event-content-title{
+        font-size: 23px;
+     }
+     
+     .c-event-content-timing{
+         font-size: 18px;
+     }
+     
+     .c-event-content-description{
+         font-size: 15px;
+     }
+
     .c-about{
         width: 100%;
     }
@@ -266,6 +329,137 @@
     .c-programs{
         background-image: linear-gradient(to right, #29ABE2 , #00A99D);
         color: #FFFFFF;
-        padding: 50px;
+        padding: 30px;
     }
+
+    .c-grid-container{
+        grid-column-gap: 150px;
+        width: 100%;
+    }
+
+    .c-section2{
+        background-color:#FFFFFF;
+    }
+
+    .c-title2{
+        color: #000000;
+    }
+
+    .c-more{
+        display: none;
+    }
+    
+    .c-grid-container2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:685px) {
+    .c-event-item{
+        height: 138px;
+        grid-template-columns: 138px 313px;
+    }
+
+    .c-event-date{
+        font-size: 18px;
+        padding-top: 40px;
+    }    
+
+    .c-event-content{
+        padding: 10px 5px;
+    }
+
+    .c-event-content-title{
+        font-size: 18px;
+     }
+     
+     .c-event-content-timing{
+         font-size: 15px;
+     }
+     
+     .c-event-content-description{
+         font-size: 12px;
+     }
+}
+
+@media screen and (max-width:500px) {
+    .c-image-description{
+        position: relative;
+        top: 100px;
+        font-size: 35px;
+        width: 95%;
+        margin: auto;
+    }
+
+    .c-description{
+        font-size: 20px;
+    } 
+
+    .c-title1{
+        font-size: 30px;
+    }
+
+    .c-description2{
+        position: relative;
+        top: -20px;
+        font-size: 22px;
+    }
+
+    .c-grid-container{
+        position: relative;
+        top: -20px;
+        grid-column-gap: 10px;
+        width: 100%;
+    }
+
+    .c-grid-item{
+        width: 140px;
+    }
+
+    .c-imagealign{
+        width: 100px;
+    }
+
+    .c-pimage{
+        width: 100px;
+        height: 100px;
+    }
+
+    .c-caption{
+        text-align: center;
+        font-size: 17px;
+        margin-left: -33px;
+    }
+
+    .c-contact-description{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .c-event-item{
+        height: 104px;
+        grid-template-columns: 104px 283px;
+    }
+
+    .c-event-date{
+        font-size: 15px;
+        padding-top: 35px;
+    }    
+
+    .c-event-content{
+        padding: 10px 5px;
+    }
+
+    .c-event-content-title{
+        font-size: 15px;
+     }
+     
+     .c-event-content-timing{
+         font-size: 12px;
+     }
+     
+     .c-event-content-description{
+         font-size: 10px;
+     }
 }

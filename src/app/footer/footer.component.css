@@ -1,6 +1,6 @@
 .c-footer{
-    margin-top: 300px;
     font-family: "Avenir Next" !important;
+    margin-top: 200px;
 }
 
 .c-title{
@@ -13,8 +13,11 @@
 
 .c-socialmedia {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row;
+    align-items: center;
     justify-content: center;
+    width: 100%;
+    margin-left: -20px;
 }
 
 .c-icon{

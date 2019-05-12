@@ -33,6 +33,7 @@
 
 .c-title{
     position: relative;
+    display: block;
     font-size: 48px;
     top: 245px;
     text-align: center;
@@ -47,7 +48,7 @@
 }
 
 .c-form{
-    width: 860px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -56,15 +57,17 @@
     top: 400px;
     width: 100%;
     height: 85px;
-    font-size: 36px;
+    font-size: 30px;
     color: #707070;
+    border-radius: 5px;
+    padding: 12px;
 }
 
 .c-or{
     position: relative;
     top: 464px;
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .c-input2{
@@ -72,8 +75,10 @@
     top: 550px;
     width: 100%;
     height: 85px;
-    font-size: 36px;
+    font-size: 30px;
     color: #707070;
+    border-radius: 5px;
+    padding: 12px;
 }
 
 .c-submit{
@@ -81,7 +86,52 @@
     top: 700px;
     width: 100%;
     height: 85px;
-    font-size: 36px;
+    font-size: 30px;
     background-color: #00A99D;
     color: #FFFFFF;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+@media screen and (max-width:900px) {
+    .c-title{
+        display:block;
+        font-weight: 35px;
+    }
+
+    .c-desciption{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .c-page-title{
+        position: absolute;
+        margin-top:60px;
+        font-size: 30px;
+    }
+
+    .c-title{
+        display:none;
+    }
+
+    .c-desciption{
+        font-size: 28px;
+        font-weight: bold;
+        margin: 0px 10px 0 10px;
+    }
+
+    .c-or{
+        display:none;
+    }
+
+    .c-input2{
+        display:none;
+    }
+
+    .c-submit{
+        position: relative;
+        top: 500px;
+    }
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1124px) {
     .c-body{
         position: absolute;
         width: 100%;
@@ -10,7 +10,6 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: flex-end;
-        text-align: center;
     }
     
     .c-mobile-navigation{
@@ -30,10 +29,14 @@
     
     .c-nav{
         display: flex;
-        width: 264px;
-        height: 27px;
-        padding: 1em;
-        margin: 10px -30px;
+    }
+
+    .c-nav a {
+        width: 135px;
+        padding: 10px;
+        margin-top: 13px;
+        font-weight: lighter;
+        text-align: center;
     }
     
     .c-navigation a{
@@ -45,7 +48,7 @@
     }
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1124px) {
     .c-navbar-toggle{
         display: block;
         position: absolute;
@@ -60,7 +63,7 @@
         display: block;
         position: absolute;
         top: 0px;
-        width: 250px;
+        min-width: 175px;
         height: 70px;
         background-color: #00A99D;
         z-index: 10;
@@ -69,27 +72,22 @@
     .c-mobile-nav-title{
         position: absolute;
         color: #FFFFFF;
-        font-weight: bold;
-        top: 10px;
-        left: 100px;
-    }
-
-    .c-nav{
-        text-align: left;
-        margin: 15px auto;
-        font-size: 30px;
+        top: 17px;
+        left: 80px;
     }
 
     .c-nav a{
         color: white;
         text-decoration: none;
+        font-size: 25px;
+        margin-top: 10px;
     }
 
     .c-navigation{
         list-style-type: none;
         display: none;
         margin-top: 70px;
-        width: 250px;
+        min-width: 175px;
         height: 100%;
         z-index: 10;
         position: absolute;
@@ -98,10 +96,10 @@
 
     .c-logo{
         position: absolute;
-        width: 183px;
+        width: 175px;
         height: 37.5px;
         top: 20px;
-        right: 30px;
+        right: 5px;
      }
 
     .active {

@@ -34,7 +34,7 @@
 
 .c-title{
     position: relative;
-    top: 245px;
+    top: 275px;
     text-align: center;
     color: #00A99D;
     font-size: 48px;
@@ -43,8 +43,34 @@
 
 .c-description{
     position: relative;
-    top: 356px;
+    top: 386px;
     text-align: center;
     font-size: 36px;
     text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .c-page-title{
+        position: absolute;
+        margin-top:60px;
+        font-size: 30px;
+    }
+    
+    .c-title{
+        position: relative;
+        top: 300px;
+        font-size: 30px;
+        font-weight: bold;
+        width: 95%;
+        margin: auto;
+    }
+
+    .c-description{
+        position: relative;
+        top: 330px;
+        font-size: 28px;
+        font-weight: lighter;
+        width: 90%;
+        margin: auto;
+    }
 }
