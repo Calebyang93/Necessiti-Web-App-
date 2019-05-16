@@ -1,6 +1,6 @@
 .c-body{
     width: 100%;
-    height: 2300px;
+    height: 2500px;
     font-family: "Avenir Next" !important;
 }
 
@@ -101,7 +101,7 @@
   }
 
 .viewport-sizing {
-    font-size: 2.5vw;
+    font-size: 30px;
 }
 
 .c-judge-item > [style^='--aspect-ratio']::before {
@@ -152,6 +152,10 @@
     .c-caption{
         font-size: 20px;
         width: 100%;
+    }
+
+    .viewport-sizing {
+        font-size: 2.5vw;
     }
 }
 
