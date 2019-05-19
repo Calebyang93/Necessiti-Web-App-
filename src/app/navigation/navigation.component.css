@@ -1,0 +1,109 @@
+@media screen and (min-width:1124px) {
+    .c-body{
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        z-index: 5;
+    }
+
+    .c-navigation {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+    
+    .c-mobile-navigation{
+        display: none;
+    }
+    
+    .c-navbar-toggle{
+        display: none;
+    }
+    
+    .c-logo{
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+    }
+    
+    .c-nav{
+        display: flex;
+    }
+
+    .c-nav a {
+        width: 135px;
+        padding: 10px;
+        margin-top: 13px;
+        font-weight: lighter;
+        text-align: center;
+    }
+    
+    .c-navigation a{
+        text-decoration: none;
+        font-family: Comfortaa;
+        font-size: 20px;
+        font-weight: bold;
+        color: #000000;
+    }
+}
+
+@media screen and (max-width:1124px) {
+    .c-navbar-toggle{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left:20px;
+        cursor: pointer;
+        color: rgba(255,255,255,0.8);
+        font-size: 50px;
+    }
+
+    .c-mobile-navigation{
+        display: block;
+        position: absolute;
+        top: 0px;
+        min-width: 175px;
+        height: 70px;
+        background-color: #00A99D;
+        z-index: 10;
+    }
+
+    .c-mobile-nav-title{
+        position: absolute;
+        color: #FFFFFF;
+        top: 17px;
+        left: 80px;
+    }
+
+    .c-nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .c-navigation{
+        list-style-type: none;
+        display: none;
+        margin-top: 70px;
+        min-width: 175px;
+        height: 100%;
+        z-index: 10;
+        position: absolute;
+        background-color: #00A99D;
+    }
+
+    .c-logo{
+        position: absolute;
+        width: 175px;
+        height: 37.5px;
+        top: 20px;
+        right: 5px;
+     }
+
+    .active {
+        display: block;
+      }
+}
+

@@ -1,14 +1,25 @@
 .c-body{
-    position:relative;
-    width: 1280px;
-    margin: 0 auto;
-}
-
-.c-childbody{
+    width: 100%;
+    height: 4100px;
     font-family: "Avenir Next" !important;
+    margin: auto;
 }
 
+.c-content{
+    position: relative;
+    max-width: 1280px;
+    margin: auto;
+}
+
+/*need to fix resolution*/
 .c-image-body{
+    margin: auto;
+    width: 100%;
+    background-image: url("../../assets/aboutus.jpeg");
+    background-position: center; 
+    background-size:cover;
+    height: 856px;
+    background-repeat: no-repeat;
     position: absolute;
     top: 69px;
 }
@@ -20,37 +31,35 @@
 .c-captions{
     font-size: 24px;
     color: #707070;
-    position: absolute;
+    position: relative;
     top: 950px;
-    left: 384px;
+    text-align: center;
 }
 
 .c-title1{
-    position: absolute;
+    position: relative;
     font-size: 48px;
     text-align: center;
     color:#000000;
-    top: 1033px;
-    left:494.5px;
+    top: 983px;
 }
 
 .c-description1{
-    position: absolute;
+    position: relative;
     font-size: 30px;
     text-align:center;
-    top: 1145px;
-    left: 50px;
+    top: 1045px;
     color:#707070
 }
 
 .c-title2{
-    position: absolute;
+    position: relative;
     font-size: 48px;
     text-align: center;
     color:#000000;
-    top: 1777px;
-    left:410px;
+    top: 1100px;
 }
+
 
 .c-ellipse1{
     width: 601.47px;
@@ -103,6 +112,10 @@
     left: 441.52px;
 }
 
+.c-section-mobile{
+    display:none;
+}
+
 .c-subtitle1{
     position: absolute;
     font-size: 30px;
@@ -152,25 +165,377 @@
 }
 
 .c-title3{
-    position: absolute;
+    position: relative;
     font-size: 48px;
     text-align: center;
     color:#000000;
-    top: 2709px;
-    left:491.5px;
+    top: 2009px;
 }
 
 .c-image-body2{
-    position: absolute;
-    top: 2821px;
-    left: 263px;
+    position: relative;
+    top: 2051px;
+}
+
+.c-image2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 753px;
+    height: 753px;
 }
 
 .c-description5{
-    position: absolute;
+    position: relative;
     color: #707070;
-    top: 3624px;
-    left: 103px;
+    top: 2084px;
     font-size: 30px;
     text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+    .c-ellipse1{
+        width: 601.47px;
+        height: 601.47px;
+        border-radius: 50%;
+        background-color: #22B573;
+        opacity: 0.33;
+        position: relative;
+        top: 200px;
+        left: -362px;
+    }
+    
+    .c-ellipse2{
+        width: 390.61px;
+        height: 390.61px;
+        border-radius: 50%;
+        background-color: #00A99D;
+        opacity: 0.5;
+        position: relative;
+        top: -300px;
+        left: -257.43px;
+    }
+    
+    .c-ellipse3{
+        width: 155.55px;
+        height: 155.55px;
+        border-radius: 50%;
+        background-color: #29ABE2;
+        opacity: 0.74;
+        position: relative; 
+        top: -560px;
+        left: -140.96px;
+    }
+    
+    #c-canvas1{
+        position: relative;
+        top: -975.19px;
+        left: -22px;
+    }
+    
+    #c-canvas2{
+        position: relative;
+        top: -901.59px;
+        left: -205px;
+    }
+    
+    #c-canvas3{
+        position: relative;
+        top: -772.53px;
+        left: -491.52px;
+    }
+
+    .c-section{
+        height: 1000px;
+        width: 70%;
+    }
+
+    .c-subtitle1{
+        position: relative;
+        font-size: 30px;
+        color:#000000;
+        top: 1130.07px;
+        left:436.57px;
+    }
+    
+    .c-description2{
+        position: relative;
+        font-size: 24px;
+        color:#707070;
+        top: 1134.89px;
+        left:436.57px;
+    }
+    
+    .c-subtitle2{
+        position: relative;
+        font-size: 30px;
+        color:#000000;
+        top: 1176.35px;
+        left:436.57px;
+    }
+    
+    .c-description3{
+        position: relative;
+        font-size: 24px;
+        color:#707070;
+        top: 1180.11px;
+        left:436.57px;
+    }
+    
+    .c-subtitle3{
+        position: relative;
+        font-size: 30px;
+        color:#000000;
+        top: 1230.99px;
+        left:436.57px;
+    }
+    
+    .c-description4{
+        position: relative;
+        font-size: 24px;
+        color:#707070;
+        top: 1239.75px;
+        left:436.57px;
+    }
+
+    .c-title3{
+        position: relative;
+        font-size: 48px;
+        text-align: center;
+        color:#000000;
+        top: -400px;
+    }
+
+    .c-image-body2{
+        position: relative;
+        top: -405px;
+    }
+
+    .c-description5{
+        position: relative;
+        color: #707070;
+        top: -370px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .c-body{
+        height: 3800px;
+    }
+
+    .c-title1{
+        font-size: 40px;
+    }
+
+    .c-ellipse1{
+        display: none;
+    }
+
+    .c-ellipse2{
+        display: none;
+    }
+
+    .c-ellipse3{
+        display: none;
+    }
+
+    #c-canvas1{
+        display: none;
+    }
+
+    #c-canvas2{
+        display: none;
+    }
+
+    #c-canvas3{
+        display: none;
+    }
+
+    .c-section-desktop{
+        display: none;
+    }
+
+    .c-section-mobile{
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 1100px;
+    }
+
+    .c-description1{
+        font-size: 25px;
+        width: 90%;
+        margin:auto;
+    }
+
+    .c-title2{
+        font-size: 40px;
+    }
+
+    .c-subtitle1{
+        font-size: 25px;
+    }
+
+    .c-subtitle2{
+        font-size: 25px;
+    }
+
+    .c-subtitle3{
+        font-size: 25px;
+    }
+
+    .c-description2{
+        font-size: 20px;
+    }
+
+    .c-description3{
+        font-size: 20px;
+    }
+
+    .c-description4{
+        font-size: 20px;
+    }
+
+    .c-title3{
+        font-size: 40px;
+    }
+
+    .c-description5{
+        font-size: 25px;
+    }
+
+    .c-image2{
+        width: 502px;
+        height: 502px;
+    }
+
+    .c-margin-description5{
+        width:90%;
+        margin: auto;
+    }
+
+    .c-section-mobile2{
+        position: relative;
+        top: 1600px;
+    }
+
+    .c-title2-mobile{
+        font-size: 40px;
+        color:#000000;
+        padding: 50px;
+    }
+
+    .c-subtitle1-mobile{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .c-subtitle2-mobile{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .c-subtitle3-mobile{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .c-description2-mobile{
+        font-size: 24px;
+    }
+
+    .c-description3-mobile{
+        font-size: 24px;      
+    }
+
+    .c-description4-mobile{
+        font-size: 24px;       
+    }
+
+    .c-section-color1-mobile{
+        background-color: #22B573;
+        opacity: 0.74;
+        color: #FFFFFF;
+        padding: 30px;
+    }
+
+    .c-section-color2-mobile{
+        background-color: #00A99D;
+        opacity: 0.74;
+        color: #FFFFFF;
+        padding: 30px;
+    }
+
+    .c-section-color3-mobile{
+        background-color: #29ABE2;
+        opacity: 0.74;
+        color: #FFFFFF;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .c-body{
+        height: 3800px;
+    }
+
+    .c-title1{
+        font-size: 30px;
+    }
+
+    .c-description1{
+        font-size: 20px;
+    }
+
+    .c-title2{
+        font-size: 30px;
+    }
+
+    .c-subtitle1{
+        font-size: 20px;
+    }
+
+    .c-subtitle2{
+        font-size: 20px;
+    }
+
+    .c-subtitle3{
+        font-size: 20px;
+    }
+
+    .c-description2{
+        font-size: 20px;
+    }
+
+    .c-description3{
+        font-size: 20px;
+    }
+
+    .c-description4{
+        font-size: 20px;
+    }
+
+    .c-title3{
+        font-size: 30px;
+    }
+
+    .c-description5{
+        font-size: 20px;
+    }
+
+    .c-image2{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .c-image2{
+        width: 320px;
+        height: 320px;
+    }
 }

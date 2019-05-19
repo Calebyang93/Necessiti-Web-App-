@@ -1,0 +1,384 @@
+.c-body{
+    position:relative;
+    width: 100%;
+    font-family: "Avenir Next" !important;
+    margin: auto;
+}
+
+.c-image{
+    position: absolute;
+    top: 70px;
+    background-image: url("../../assets/home.jpeg");
+    background-position: center; 
+    background-size:cover;
+    height: 750px;
+    width: 100%;
+    opacity: 15%;
+}
+
+.c-image-description{
+    position: relative;
+    color: #FFFFFF;
+    font-weight: bolder;
+    top: 259px;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 0px 3px 5px #000000;
+}
+
+.c-learn{
+    position: relative;
+    background-color: #00A99D;
+    box-shadow: 2px 4px 6px #000000 16%;
+    color: #FFFFFF;
+    border-radius: 31px;
+    width: 415px;
+    height: 110px;
+    font-size: 35px;
+    display: block;
+    margin-bottom: 50px;
+    margin: auto;
+    top: 300px;
+}
+
+.c-content{
+    margin: auto;
+    position: relative;
+    top: 800px;
+}
+
+.c-description{
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    padding: 100px;
+    font-weight: lighter;
+    width: 60%;
+    margin: auto;
+}
+
+.c-section1{
+    clear: both;
+    background-image: linear-gradient(to right, #29ABE2 , #00A99D);
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.c-title1{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    top: 15px;
+    color: #FFFFFF;
+}
+
+.c-description2{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.c-grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(138.15px, 1fr));
+    grid-column-gap: 180px;
+    grid-row-gap: 70px;
+    position: relative;
+    margin: auto;
+    width: 85%;
+}
+
+.c-pimage{
+    width: 138.15px;
+    height: 138.15px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: auto;
+}
+
+.c-caption{
+    text-align: center;
+    margin-top:25px;
+    font-size: 24px;
+    width: 200px;
+}
+
+.c-grid-item{
+    margin: auto;
+}
+
+
+.c-imagealign{
+    width: 138.15px;
+    margin: auto;
+}
+
+.c-section2{
+    background-color:  #00A99D;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    margin: 100px 0px 50px 0px;
+}
+
+.c-title2{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    top: 15px;
+    color: #FFFFFF;
+}
+
+.c-more{
+    display: block;
+    position: relative;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: right;
+    padding: 30px;
+}
+
+.c-grid-container2{
+    margin:auto;
+    width: 90%;
+}
+
+.c-event-item{
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    margin: 30px auto;
+}
+
+.aspect-ratio-box-inside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.flexbox-centering {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.viewport-sizing {
+    font-size: 3vw;
+}
+
+.c-event-item > [style^='--aspect-ratio']::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 0;
+    padding-bottom: calc(40% / (var(--aspect-ratio)));
+}
+
+.c-event-date{
+    position: relative;
+    background-color: #00A99D;
+    border: 1px solid #707070;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.c-event-content{
+    position: relative;
+    border: 1px solid #e0d2d2;
+}
+
+.c-event-content-title{
+   text-align: center;
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+.c-event-content-timing{
+    font-weight: bold;
+    text-align: center;
+}
+
+.c-event-content-description{
+    text-align: center;
+}
+
+.c-contactus{
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 780px;
+    background-image: url("../../assets/home2.png");
+    background-size: cover;
+    opacity: 12%;
+}
+
+.c-contact-description{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 48px;
+    color: #FFFFFF;
+    width: 95%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.c-form{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.c-input1{
+    position: relative;
+    top: 45px;
+    width: 100%;
+    height: 85px;
+    font-size: 36px;
+    color: #707070;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.c-or{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.c-input2{
+    position: relative;
+    top: 145px;
+    width: 100%;
+    height: 85px;
+    font-size: 36px;
+    color: #707070;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.c-submit{
+    position: relative;
+    top: 230px;
+    width: 100%;
+    height: 85px;
+    font-size: 36px;
+    background-color: #00A99D;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+@media screen and (max-width:900px) {
+    .c-about{
+        width: 100%;
+    }
+
+    .c-description{
+        width: 100%;
+        text-align: center;
+    }
+
+    .c-learn{
+        display: none;
+    }
+
+    .c-title1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .c-programs{
+        background-image: linear-gradient(to right, #29ABE2 , #00A99D);
+        color: #FFFFFF;
+        padding: 30px;
+    }
+
+    .c-grid-container{
+        grid-column-gap: 150px;
+        width: 100%;
+    }
+
+    .c-section2{
+        background-color:#FFFFFF;
+    }
+
+    .c-title2{
+        color: #000000;
+    }
+
+    .c-more{
+        display: none;
+    }
+    
+    .c-grid-container2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .c-image-description{
+        position: relative;
+        top: 100px;
+        font-size: 35px;
+        width: 95%;
+        margin: auto;
+    }
+
+    .c-description{
+        width: 100%;
+        font-size: 30px;
+        border: 1px solid
+    } 
+
+    .c-title1{
+        font-size: 30px;
+    }
+
+    .c-description2{
+        position: relative;
+        top: -20px;
+        font-size: 22px;
+    }
+
+    .c-grid-container{
+        position: relative;
+        top: -20px;
+        grid-column-gap: 10px;
+        width: 100%;
+    }
+
+    .c-grid-item{
+        width: 140px;
+    }
+
+    .c-imagealign{
+        width: 100px;
+    }
+
+    .c-pimage{
+        width: 100px;
+        height: 100px;
+    }
+
+    .c-caption{
+        text-align: center;
+        font-size: 17px;
+        margin-left: -33px;
+    }
+
+    .c-contact-description{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:400px) {
+}
